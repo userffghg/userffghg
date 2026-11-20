@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 22px 8%;
+            background: #111827;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            max-width: 550px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #0284c7;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 55px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #38bdf8;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #111827;
+            text-align: center;
+            padding: 22px;
+            color: #94a3b8;
+        }
+
+        @media(max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Portfolio</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h1>Welcome to <span>portfolio</span></span></h1>
+
+        <p>
+            Learn, Create and Explore the World of Web Development.
+            Your journey starts here!
+        </p>
+
+        <a href="#about" class="btn">Explore More</a>
+    </div>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Portfolio is a place to learn web development,
+            explore technology and build amazing projects.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Welcome to our digital world!</p>
+    </section>
+
+    <footer>
+        © 2026 Portfolio. All Rights Reserved.
+    </footer>
+
+</body>
+  </html>
+  
